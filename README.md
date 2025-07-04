@@ -13,8 +13,11 @@ _When the question is about something before something or cycle detection.
 
 3. Find Eventual Safe states : (Reverse the graph and store the topo sort. The one’s which are not safe nodes will automatically not implemented.)
 
-4. Alien Dictionary
-5. Shortest path in DAG
-6. Shortest path in undirected graph with unit weights.
-7. Word ladder 1 and 2
+4. Alien Dictionary : (Iterate through every 2 adjacent words and theb when there is a differentiating alphabet store it as a directed graph and apply topo sort. )
+
+5. Shortest path in DAG (Apply toposort first and then using queue implement similar to dijkstra)
+
+6. Shortest path in undirected graph with unit weights. 
+
+7. Word ladder 1 and 2 (similar to queue implementation not of toposort. In word ladder 2, we also need to print all the combinations possible so it's a bit tough.)
    
