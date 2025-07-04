@@ -3,7 +3,7 @@
 1. Topological Sort : Linear ordering of vertices such that if there is an edge between u and v then u appears before v in that ordering.
 (Only in DAG).
 
- # Questions : 
+ ## Questions : 
 _When the question is about something before something or cycle detection.
 
 1. Detect cycle in Directed graph (We will implement topo sort using bfs [Kahn's Algo] and then if topo.size()<N then it is because there is a cycle in it.)
